@@ -4,6 +4,7 @@ import Modal from 'react-bootstrap/Modal';
 import styles from './ErrorModal.module.css';
 
 const ErrorModal = (props) => {
+    // console.log('');
     return (
         <>
             <Modal show={props.onConfirm} size="lg" centered>
